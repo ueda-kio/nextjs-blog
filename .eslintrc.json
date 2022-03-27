@@ -2,7 +2,7 @@
   "extends": "next/core-web-vitals",
   "rules": {
     "react/no-children-prop": [{
-      "allowFunctions": false
+      "allowFunctions": 0
     }]
   }
 }
