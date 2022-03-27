@@ -30,6 +30,8 @@ const Layout = ({ children, home }) => {
 					<>
 						<Image
 							src="/images/profile.jpg"
+							width={400}
+							height={400}
 							className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
 							alt={name}
 						/>
@@ -41,6 +43,8 @@ const Layout = ({ children, home }) => {
 							<a>
 								<Image
 									src="/images/profile.jpg"
+									width={400}
+									height={400}
 									className={`${styles.headerImage} ${utilStyles.borderCircle}`}
 									alt={name}
 								/>
