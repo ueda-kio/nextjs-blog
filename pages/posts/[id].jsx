@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Layout from '../components/layout';
-import Date from '../components/date';
 import { getAllPostIds, getPostData } from '../../lib/posts';
 import ReactMarkdown from 'react-markdown';
 
@@ -14,7 +13,7 @@ export default function Post({ postData }) {
             <br />
             {postData.id}
             <br />
-            <Date dateString={postData.date} />
+            {postData.date}
             <br />
             <ReactMarkdown children={postData.fileContents} />
         </Layout>
